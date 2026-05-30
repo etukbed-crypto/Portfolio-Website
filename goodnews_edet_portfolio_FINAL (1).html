@@ -45,7 +45,7 @@ nav{background:var(--dark);padding:0 2.5rem;display:flex;align-items:center;just
 .hero h1 span{color:var(--gold)}
 .hero-sub{color:rgba(255,255,255,.55);font-size:14px;max-width:400px;margin-bottom:2rem;line-height:1.85}
 .hero-btns{display:flex;gap:10px;flex-wrap:wrap}
-.btn-p{background:var(--gold);color:var(--dark);font-weight:700;padding:11px 24px;border-radius:8px;font-size:13px;cursor:pointer;border:none;font-family:"Sora",sans-serif;transition:opacity .2s;display:inline-block;text-align:center}
+.btn-p{background:var(--sky);color:var(--dark);font-weight:700;padding:11px 24px;border-radius:8px;font-size:13px;cursor:pointer;border:none;font-family:"Sora",sans-serif;transition:opacity .2s;display:inline-block;text-align:center}
 .btn-p:hover{opacity:.88;color:var(--dark)}
 .btn-o{background:transparent;color:var(--sky);border:1.5px solid var(--sky);padding:11px 24px;border-radius:8px;font-size:13px;cursor:pointer;font-weight:600;transition:background .2s;display:inline-block}
 .btn-o:hover{background:rgba(56,182,255,.1)}
@@ -175,7 +175,9 @@ section{padding:4rem 2.5rem;position:relative}
     <a href="#tools">Tools</a>
     <a href="#contact">Contact</a>
   </div>
-  <a href="#contact" target="_blank" class="nav-cta">Check In With Me</a>
+  <button class="btn-o" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+  Check In With Me
+</button>
 </nav>
 
 <!-- ═══ HERO ═══ -->
@@ -196,7 +198,9 @@ section{padding:4rem 2.5rem;position:relative}
       <p class="hero-sub">I turn chaos into structure through smart coordination, proactive support, and efficient systems giving you back the time and clarity to grow your vision.</p>
       <div class="hero-btns">
         <button class="btn-p" onclick="document.getElementById('work').scrollIntoView({behavior:'smooth'})">View my work</button>
-        <a href="#contact" target="_blank" class="btn-p">Check In With Me</a>
+       <button class="btn-o" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+  Check In With Me
+</button>
       </div>
       <div class="stats">
         <div><div class="stat-n">2+</div><div class="stat-l">Years experience</div></div>
@@ -415,7 +419,7 @@ section{padding:4rem 2.5rem;position:relative}
       <a href="https://www.facebook.com/profile.php?id=100089032399705" class="soc" title="Facebook" target="_blank"><i class="ti ti-brand-facebook"></i></a>
       <a href="https://www.instagram.com/goodnews3657" class="soc" title="Instagram" target="_blank"><i class="ti ti-brand-instagram"></i></a>
     </div>
-    <a href="https://calendly.com/etukbed/new-meeting" target="_blank" class="btn-p">Check In With Me &rarr;</a>
+    <a href="https://calendly.com/etukbed/new-meeting" target="_blank" class="btn-p">Check In With Me</a>
     <div class="ct-row">
       <div class="ci"><i class="ti ti-mail"></i><a href="mailto:goodnewsedet170@outlook.com">goodnewsedet170@outlook.com</a></div>
       <div class="ci"><i class="ti ti-brand-whatsapp"></i><a href="https://wa.me/2349017494728">+234 901 749 4728</a></div>
